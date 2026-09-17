@@ -37,7 +37,7 @@ No features, no example code, no placeholder tests.
 
 ## 4. Create the sandbox
 
-Build the sandbox: everything the project runs against (services, databases, seed data when the project needs data), one command to start, one to reset. Sessions run in parallel: every agent and the user start their own instance, isolated from the others (no shared ports, names or data), so the user can always run the project while agents run theirs. Prefer containers when the stack has external dependencies; a script is enough when it does not.
+Build the sandbox: everything the project runs against (services, databases, seed data when the project needs data), one command to start, one to reset. Instances run side by side, as the Environment section of AGENTS.md requires: no shared ports, names or data. Prefer containers when the stack has external dependencies; a script is enough when it does not.
 
 Write `docs/sandbox.md`: what the sandbox contains and how to observe it (logs, ports, data). A few lines is usually right.
 

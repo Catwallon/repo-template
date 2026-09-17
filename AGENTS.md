@@ -50,7 +50,7 @@ Never run a command that alters git history or the remote (commit, amend, rebase
 
 ## Environment
 
-Maintain a sandbox of your own, defined in this repository, where you can run, observe and test everything, dependencies and data included. Create it if missing, keep it working and fast to start and reset.
+Maintain a sandbox of your own, defined in this repository, where you can run, observe and test everything, dependencies and data included. Sessions run in parallel: each one, the user's included, starts its own instance, sharing nothing with the others, so the user can always run the project while agents run theirs. Create it if missing, keep it working and fast to start and reset.
 
 ## Verification
 
