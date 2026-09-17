@@ -8,6 +8,20 @@ If this repository was just created from the template, run `/bootstrap` before a
 
 [What this project is and what it covers, two sentences at most.]
 
+## Architecture
+
+[Main components and how they connect, a few lines.]
+
+Only what an agent needs to place a change correctly. The why is in ADRs.
+
+## Layout
+
+| Path | Holds |
+| --- | --- |
+| `[path]` | [What lives there] |
+
+One row per top-level directory; deeper only where the tree alone would not tell an agent where a change belongs.
+
 ## Commands
 
 | Command | Purpose |
@@ -96,6 +110,6 @@ Create a skill at `.claude/skills/<name>/SKILL.md` only for a task agents will r
 
 ## AGENTS.md and README.md
 
-You may edit this file only to: refresh the project description when it is no longer accurate (never to add detail); add, update or remove commands; add, update or remove a documentation entry. Everything else here is owned by the user.
+You may edit this file only to: refresh the project description when it is no longer accurate (never to add detail); update Architecture and Layout when a change alters them; add, update or remove commands; add, update or remove a documentation entry. Everything else here is owned by the user.
 
 README.md is the landing page for humans: description, installation, usage, commands, in clear sections. Keep it accurate and strictly minimal.

@@ -43,9 +43,11 @@ Write `docs/sandbox.md`: what the sandbox contains and how to observe it (logs, 
 
 ## 5. Fill AGENTS.md
 
-Edit only the three places AGENTS.md lets you edit:
+Edit only the places AGENTS.md lets you edit:
 
 - **Project.** Replace the placeholder with what the project is and what it covers, two sentences at most.
+- **Architecture.** Replace the placeholder with the main components from step 2 and how they connect.
+- **Layout.** Replace the placeholder row with the directories created in step 3.
 - **Commands.** Replace the placeholder row with the agent-facing and shared commands: install, lint, format, scoped test, build if any, sandbox start and reset.
 - **Documentation.** Replace the placeholder row with `docs/sandbox.md`.
 
