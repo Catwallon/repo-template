@@ -1,5 +1,9 @@
 # AGENTS.md
 
+## Bootstrap
+
+If this repository was just created from the template, run `/bootstrap` before anything else. Delete this section once the project is set up.
+
 ## Project
 
 [What this project is and what it covers, two sentences at most.]
