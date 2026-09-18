@@ -61,6 +61,6 @@ Run each command listed in AGENTS.md and README.md once and fix whatever fails. 
 
 ## 8. Remove the bootstrap
 
-Delete `.agents/skills/bootstrap` (and `.agents/skills` if it is now empty) and the Bootstrap section of AGENTS.md.
+Delete `.agents/skills/bootstrap` and the Bootstrap section of AGENTS.md.
 
 Summarise what you created and ask whether to commit.
