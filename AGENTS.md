@@ -68,6 +68,7 @@ A comment is re-read by every agent that passes through its file and costs conte
 
 - Comment only what cannot be understood from the code itself.
 - Describe the code as it is now: no former behaviour, no plans.
+- Keep comments within the scope where they appear: a comment inside a function describes only that function; a file-level comment describes only that file. Never reference code or behaviour outside that scope, including as a reason for the local implementation.
 - What is in your context is not what is in the code. Never record a decision abandoned along the way, an alternative you considered, or what your change replaced: after replacing A with B, do not comment that A is not used.
 - Create, update and delete comments in the same change that alters the code they describe.
 - If you hesitate over a comment, leave it out.
