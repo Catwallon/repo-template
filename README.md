@@ -4,4 +4,4 @@ A starting point for new repositories: an AGENTS.md that sets how coding agents 
 
 ## Start
 
-Clone, open the repository in Claude Code and run `/bootstrap`. It asks for the project name, summary and stack, installs the core tooling and the sandbox, fills AGENTS.md, rewrites this README and removes itself.
+Clone, open the repository in an AI coding agent and ask it to follow the `bootstrap` skill at `.agents/skills/bootstrap/SKILL.md`. It asks for the project name, summary and stack, installs the core tooling and the sandbox, fills AGENTS.md, rewrites this README and removes itself.

@@ -2,7 +2,7 @@
 
 ## Bootstrap
 
-If this repository was just created from the template, run `/bootstrap` before anything else. Delete this section once the project is set up.
+If this repository was just created from the template, follow `.agents/skills/bootstrap/SKILL.md` before anything else. Delete this section once the project is set up.
 
 ## Project
 
@@ -107,7 +107,7 @@ Never edit an accepted ADR beyond its status line; a new ADR supersedes it.
 
 ## Skills
 
-Create a skill at `.claude/skills/<name>/SKILL.md` only for a task agents will repeat frequently over the life of the repository and that a written procedure makes faster or safer. Keep it current; delete it when the task disappears.
+Create a skill at `.agents/skills/<name>/SKILL.md` only for a task agents will repeat frequently over the life of the repository and that a written procedure makes faster or safer. Keep it current; delete it when the task disappears.
 
 ## AGENTS.md and README.md
 

@@ -5,7 +5,7 @@ description: Turn this template into a project. Asks for the project name, an ex
 
 # Bootstrap
 
-You are turning an empty template into a project. Everything you create is governed by AGENTS.md, already in your context.
+You are turning an empty template into a project. Read AGENTS.md before making changes; it governs everything you create.
 
 Follow the steps in order; each depends on the previous one.
 
@@ -61,6 +61,6 @@ Run each command listed in AGENTS.md and README.md once and fix whatever fails. 
 
 ## 8. Remove the bootstrap
 
-Delete `.claude/skills/bootstrap` (and `.claude/skills` if it is now empty) and the Bootstrap section of AGENTS.md.
+Delete `.agents/skills/bootstrap` (and `.agents/skills` if it is now empty) and the Bootstrap section of AGENTS.md.
 
 Summarise what you created and ask whether to commit.
