@@ -75,7 +75,7 @@ A comment is re-read by every agent that passes through its file and costs conte
 
 ## Documentation
 
-Documentation explains the what, in plain human English, structured for a reader. Creating a document is a deliberate choice for something that genuinely needs explaining; a word, a sentence or a section may be enough.
+Documentation explains the what, in plain human English, structured for a reader. Most work does not need documentation. Add documentation only when the information is important for future readers to understand or use the project; treat every addition, even a word, as a deliberate choice. Create a new document only when that information cannot be covered clearly in an existing one.
 
 - Describe the present state: no history, no plans.
 - What is in your context is not what the reader needs. Never document a decision abandoned along the way, an alternative you considered, or what your change replaced: after replacing A with B, document B and never mention A.
